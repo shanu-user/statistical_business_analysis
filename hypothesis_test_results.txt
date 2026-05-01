@@ -1,0 +1,79 @@
+HYPOTHESIS TEST RESULTS
+
+--------------------------------------------------
+1. CORRELATION TEST: Quantity vs Total Sales
+--------------------------------------------------
+
+Null Hypothesis (H0):
+There is no relationship between Quantity and Total Sales.
+
+Alternative Hypothesis (H1):
+There is a significant relationship between Quantity and Total Sales.
+
+Results:
+Correlation Coefficient (r): 0.688
+p-value: 2.58e-15
+
+Decision:
+Since p-value < 0.05, we reject the null hypothesis.
+
+Conclusion:
+There is a strong positive and statistically significant relationship 
+between Quantity and Total Sales. Increasing quantity leads to higher revenue.
+
+
+--------------------------------------------------
+2. CORRELATION TEST: Price vs Total Sales
+--------------------------------------------------
+
+Null Hypothesis (H0):
+There is no relationship between Price and Total Sales.
+
+Alternative Hypothesis (H1):
+There is a significant relationship between Price and Total Sales.
+
+Results:
+Correlation Coefficient (r): 0.646
+p-value: 3.88e-13
+
+Decision:
+Since p-value < 0.05, we reject the null hypothesis.
+
+Conclusion:
+There is a moderate to strong positive and statistically significant 
+relationship between Price and Total Sales.
+
+
+--------------------------------------------------
+3. ANOVA TEST: Product vs Total Sales
+--------------------------------------------------
+
+Null Hypothesis (H0):
+There is no significant difference in Total Sales across different products.
+
+Alternative Hypothesis (H1):
+At least one product has significantly different Total Sales.
+
+Results:
+F-statistic: 2.05
+p-value: 0.093
+
+Decision:
+Since p-value > 0.05, we fail to reject the null hypothesis.
+
+Conclusion:
+There is no statistically significant difference in Total Sales 
+between different product categories. Product type does not significantly 
+impact sales performance.
+
+
+--------------------------------------------------
+OVERALL INSIGHT
+--------------------------------------------------
+
+Total Sales are significantly influenced by Quantity and Price, 
+while Product category does not show a statistically significant impact.
+
+The primary drivers of revenue are:
+1. Quantity (strongest influence)
+2. Price (moderate influence)
